@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     function redirectToWhatsApp() {
-        var phoneNumber = "6282179423008";
+        var phoneNumber = "6283827452346";
         var whatsappURL = "https://wa.me/" + phoneNumber;
         window.location.href = whatsappURL;
     }
