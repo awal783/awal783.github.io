@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     yesBtn.addEventListener("click", () => {
-        question.innerHTML = "Pinjam dulu seratus";
-        secondQuestion.innerHTML = "bagaimana adakah seratus?";
+        question.innerHTML = "aku suka kamu";
+        secondQuestion.innerHTML = "Aku menyukai kamu,apakah kamu suka aku?";
         img.src = "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/AskCrush1.png";
         isImageChanged = true;
     });
