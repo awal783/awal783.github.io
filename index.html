@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pesan untuk Anda, dari Satrio,!</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bagikan Lokasi Anda</title>
+<style>
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #map {
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+  }
+</style>
 </head>
 <body>
-    <div class="wrapper">
-        <h2 class="question">Aku ingin bilang sesuatu, tidak apa kan?</h2>
-        <h2 class="question">Sebenarnya aku ingin..</h2>
-        <img class="img" alt="img" src="https://raw.githubusercontent.com/DzarelDeveloper/Img/main/AskCrush.png">
-        <p class="copyright">© 2024 SatrioKenconoTampanCompany. All rights reserved.</p>
-        <div class="btn-group">
-            <button class="yes-btn" onclick="redirectToWhatsApp()">oh tentu tidak
-            </button>
-            <button class="no-btn">Gak</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
+<div class="container">
+  <h2>Lokasi Anda</h2>
+  <div id="map"></div>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+<script>
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 17
+    });
+
+    var marker = new google.maps.Marker({
+      position: {lat: -34.397, lng: 150.644},
+      map: map,
+      title: 'Lokasi Anda'
+    });
+  }
+</script>
 </body>
 </html>
