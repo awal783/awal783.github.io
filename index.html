@@ -4,38 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bagikan Lokasi Anda</title>
-<style>
-  .container {
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  #map {
-    width: 100%;
-    height: 400px;
-    margin: 20px auto;
-  }
-</style>
 </head>
 <body>
-<div class="container">
-  <h2>Lokasi Anda</h2>
-  <div id="map"></div>
+<div style="text-align: center; margin-top: 50px;">
+  <h2>Ngantar paket kan?</h2>
+  <h3>nganternya harus sekitaran jam 10-1 siang,hari minggu,kalo sabtu jam 9-11</h3>
+  <p>Silakan klik,itu link lokasi saya(rumah) <a href="https://goo.gl/maps/3KrsNKwmMWzpmnog6" target="_blank">lokasi saya</a> untuk melihat lokasi Rumah Saya di Google Maps.</p>
 </div>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
-<script>
-  function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: -34.397, lng: 150.644},
-      zoom: 17
-    });
-
-    var marker = new google.maps.Marker({
-      position: {lat: -34.397, lng: 150.644},
-      map: map,
-      title: 'Lokasi Anda'
-    });
-  }
-</script>
 </body>
 </html>
