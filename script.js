@@ -12,7 +12,7 @@ const characters = [
         image: "https://static.miraheze.org/projectsekaiwiki/thumb/9/93/Hatsune_Miku.png/315px-Hatsune_Miku.png"
     },
     {
-        name: "Kudanil",
+        name: "Avanza",
         image: "player4.svg"
     },
     {
