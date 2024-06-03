@@ -16,8 +16,8 @@ const characters = [
         image: "player4.svg"
     },
     {
-        name:"Req karaktermu",
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjQKT_9BCwqyv-i4vHGaO8SecitO2T0WuazQ&usqp=CAU"
+        name:"req karakter",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2NpPgiuUKeo5DzLnztOHlEMpCocTatpga8cTAK2NFvQsk2EwKavKwTE3Q&s=10"
     }
 ];
 
