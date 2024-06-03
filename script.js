@@ -13,7 +13,7 @@ const characters = [
     },
     {
         name: "Avanza",
-        image: "player4.svg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY2Rbw9MVTn6B6p0LJcKlzNhglxRSewcHDiPTRZftVEPBR_BjrBYIzdYk&s=10"
     },
     {
         name:"req karakter",
