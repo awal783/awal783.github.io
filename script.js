@@ -8,12 +8,16 @@ const characters = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCm44pYtXVF5b_ecFP65cTv77mJczqeqffCQ&usqp=CAU"
     },
     {
-        name: "Prangko",
-        image: "player3.svg"
+        name: "Miku",
+        image: "https://static.miraheze.org/projectsekaiwiki/thumb/9/93/Hatsune_Miku.png/315px-Hatsune_Miku.png"
     },
     {
         name: "Kudanil",
         image: "player4.svg"
+    },
+    {
+        name:"Req karaktermu",
+        image:"https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/6/66/Zenitsu_anime.png/revision/latest?cb=20181128204231"
     }
 ];
 
