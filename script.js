@@ -4,15 +4,15 @@ const characters = [
         image: "https://p3d.in/model_data/snapshot/3gWQo"
     },
     {
-        name: "Raden Ei",
-        image: "https://dribbble.com/tags/raiden-shogun"
+        name: "Raden Shogun",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCm44pYtXVF5b_ecFP65cTv77mJczqeqffCQ&usqp=CAU"
     },
     {
-        name: "Zoro",
+        name: "Prangko",
         image: "player3.svg"
     },
     {
-        name: "Luffy",
+        name: "Kudanil",
         image: "player4.svg"
     }
 ];
