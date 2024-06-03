@@ -1,4 +1,3 @@
-const baseUrl = "https://rerofya.github.io/resources/";
 const characters = [
     {
         name: "Furina",
