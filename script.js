@@ -17,7 +17,7 @@ const characters = [
     },
     {
         name:"Req karaktermu",
-        image:"https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/6/66/Zenitsu_anime.png/revision/latest?cb=20181128204231"
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjQKT_9BCwqyv-i4vHGaO8SecitO2T0WuazQ&usqp=CAU"
     }
 ];
 
