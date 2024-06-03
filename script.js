@@ -1,6 +1,6 @@
 const characters = [
     {
-        name: "Furina",
+        name: "jarot",
         image: "https://p3d.in/model_data/snapshot/3gWQo"
     },
     {
