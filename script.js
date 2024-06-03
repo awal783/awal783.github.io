@@ -1,7 +1,7 @@
 const characters = [
     {
         name: "Furina",
-        image: "https://www.pinterest.com/pin/daily-furina-emotes-collection--762445411941245504/
+        image: "https://p3d.in/model_data/snapshot/3gWQo"
     },
     {
         name: "Raden Ei",
