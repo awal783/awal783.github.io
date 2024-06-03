@@ -24,14 +24,14 @@ const leftA = document.querySelector('.left');
 const rightA = document.querySelector('.right');
 
 function setPlayer() {
-    player.setAttribute('src', baseUrl + characters[current].image);
+    player.setAttribute('src', characters[current].image);
     pName.textContent = characters[current].name;
 }
 
 leftA.addEventListener('click', function() {
     if (current > 0) {
         current--;
-        setPlayer():
+        setPlayer();
     }
 });
 
@@ -44,4 +44,3 @@ rightA.addEventListener('click', function() {
 
 // Set player and name initially
 setPlayer();
-
