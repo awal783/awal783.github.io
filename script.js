@@ -13,11 +13,11 @@ const characters = [
     },
     {
         name: "Avanza",
-        image: "https://pin.it/2go3sevKH"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY2Rbw9MVTn6B6p0LJcKlzNhglxRSewcHDiPTRZftVEPBR_BjrBYIzdYk&s=10"
     },
     {
         name:"req karakter",
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2NpPgiuUKeo5DzLnztOHlEMpCocTatpga8cTAK2NFvQsk2EwKavKwTE3Q&s=10"
+        image:"https://pin.it/2go3sevKH"
     }
 ];
 
